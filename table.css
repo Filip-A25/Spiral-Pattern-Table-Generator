@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background: rgb(32, 30, 52);
+    padding: 0;
+    margin: 0;
+}
+
+.centered {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    height: 100vh;
+    width: 100vw;
+}
+
+.input-section, .output-section {
+    height: 80%;
+    position: relative;
+}
+
+.input-section {
+    width: 37.5%;
+    background: rgb(8, 7, 17);
+    border-radius: 5px 0 0 5px;
+    flex-direction: column;
+}
+
+h1 {
+    color: whitesmoke;
+}
+
+.output-section {
+    width: 52.5%;
+    background: rgb(22, 20, 38);
+    border-radius: 0 5px 5px 0;
+}
+
+form {
+    height: 70%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+.text-title {
+    color: white;
+    font-size: 1.1rem;
+    margin-bottom: 3%;
+}
+
+.form-input::-webkit-outer-spin-button,
+.form-input::-webkit-inner-spin-button {
+    display: none;
+}
+
+.form-input {
+    outline: none;
+    font-size: 1.5rem;
+    text-align: center;
+    width: 50%;
+    height: 16vh;
+    border-radius: 5px;
+    border: 2px solid whitesmoke;
+    background: rgb(19, 17, 39);
+    color: whitesmoke;
+}
+
+#submit-input {
+    height: 22vh;
+    width: 60%;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-weight: bold;
+    background: linear-gradient(to right, rgb(17, 54, 106), rgb(32, 167, 251));
+    color: white;
+    transition: all 250ms ease-in-out;
+}
+
+#submit-input:hover {
+    letter-spacing: 2px;
+}
+
+table {
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+td {
+    height: 55px;
+    width: 55px;
+    color: whitesmoke;
+    border-radius: 3px;
+    border: 2px solid white;
+    text-align: center;
+    gap: 0;
+    font-size: 1.2em;
+} 
